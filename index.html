@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Book</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <header> <!-- Cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar bg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="imagens/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a id="esp" class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="esp" class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a id="esp" class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+          <div class="search-box">
+            <input type="text" placeholder="Pesquisar">
+            <button type="submit">Buscar</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <hr id="hr">
+
+  <main>
+
+    <!-- inicio carousel -->
+    <div class="container text-center">
+      <div class="banner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/banner1.png" id="banner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/banner2.png" id="banner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/banner3.png" id="banner" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div><!-- fim carousel -->
+      </div>
+    </div>
+
+    <br>
+    <!-- itens da loja -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="centro">
+          <div class="col-sm-2 col-4 float">
+            <a href="ficcao.html"><img id="espaco1" src="imagens/ficcaoCien.png" alt=""></a>
+            <p id="left">Ficção Científica</p>
+          </div>
+          <div class="col-sm-2 col-4 float">
+            <a href="romance.html"><img id="espaco1" src="imagens/romance.png" alt=""></a>
+            <p id="left">Romance</p>
+          </div>
+          <div class="col-sm-2 col-4 float">
+            <a href="fantasia.html"><img id="espaco1" src="imagens/fantasia2.png" alt=""></a>
+            <p id="left">Fantasia</p>
+          </div>
+          <div class="col-sm-2 col-4 float">
+            <a href="terror.html"><img id="espaco1" src="imagens/terro.png" alt=""></a>
+            <p id="left">Terror</p>
+          </div>
+          <div class="col-sm-2 col-4 float">
+            <a href="infantil.html"><img id="espaco1" src="imagens/infantil.png" alt=""></a>
+            <p id="left">Infantil</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br><br>
+
+    <div class="cards">
+
+      <div class="nomes">
+        <h2>Livros Físicos</h2>
+      </div>
+
+      <!-- LIVRO 1 -->
+      <div class="container-fluid">
+        <div class="row">
+
+          <div id="esp" class="col 2,4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagens/livro1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">De Sangue e Cinzas</h5>
+                <p class="card-text">Preço em dólar: $<b id="dolar0">d</b></p>
+                <h3 class="card-text">Preço em reais: R$<b id="real0">d</b></h3>
+                <a href="livro1.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <!-- LIVRO 2 -->
+          <div id="esp" class="col 2,4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagens/livro2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tudo é Rio</h5>
+                <p class="card-text">Preço em dólar: $<b id="dolar1">d</b></p>
+                <h3 class="card-text">Preço em reais: R$<b id="real1">d</b></h3>
+                <a href="livro2.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <!-- LIVRO 3 -->
+          <div id="esp" class="col 2,4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagens/livro3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sua Alteza Real</h5>
+                <p class="card-text">Preço em dólar: $<b id="dolar2">d</b></p>
+                <h3 class="card-text">Preço em reais: R$<b id="real2">d</b></h3>
+                <a href="livro3.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <!-- LIVRO 4 -->
+          <div id="esp" class="col 2,4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagens/livro4.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Pessoas Normais</h5>
+                <p class="card-text">Preço em dólar: $<b id="dolar3">d</b></p>
+                <h3 class="card-text">Preço em reais: R$<b id="real3">d</b></h3>
+                <a href="livro4.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <!-- LIVRO 5 -->
+          <div id="esp" class="col 2,4">
+            <div class="card" style="width: 18rem;">
+              <img src="imagens/livro5.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Pessoas Normais</h5>
+                <p class="card-text">Preço em dólar: $<b id="dolar4">d</b></p>
+                <h3 class="card-text">Preço em reais: R$<b id="real4">d</b></h3>
+                <a href="livro5.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="classe">
+    <div class="container">
+      <div class="row">
+        <p class="rodape1">Copyright © 2023 | Magic Book</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="dolar/conversao.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

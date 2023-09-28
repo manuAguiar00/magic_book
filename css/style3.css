@@ -1,0 +1,185 @@
+/* header */
+body{
+    text-align: center;
+}
+/* Menu */
+#hr{
+    border-top: 5px solid rgb(3, 53, 37); 
+}
+#espaco{
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    text-align: center;
+}
+#logo{
+    width: 150px;
+    margin-right: 80px;
+    
+}
+header{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo do menu de navegação */
+.menu {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: rgb(147, 202, 199);
+}
+
+/* Estilo da barra de pesquisa */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.search-box button[type="submit"] {
+    background-color: rgb(147, 202, 199);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-box button[type="submit"]:hover{
+    background-color:rgb(93, 172, 168);
+}
+
+.container2{
+    display: flex;
+}
+
+
+/* main */
+.banner{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#banner{
+    height: 400px;
+    width: 400px;
+}
+.cards{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.a{
+    color: white;
+}
+#texto{
+    margin-left: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(52, 84, 87, 1);
+}
+#esp{
+    padding: 25px;
+}
+.nomes{
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+.botao{
+    background-color:  rgb(147, 202, 199);
+    height: 45px;
+    width: 250px;
+    font-size: x-large;
+    color: white;
+    display: table;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-color: white;
+}
+#espaco1{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    display: flex;
+  
+}
+.centro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#esp{
+    padding: 20px;
+}
+.nomes{
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+#left{
+    padding-left: 70px;
+}
+
+/* rodape */
+footer {
+    bottom: 0;
+    background-color: rgba(52, 84, 87, 1);
+    width: 99%;
+    height: 50px;    
+    text-align: center;
+}
+.rodape1{
+    text-align: center;
+    color: white;
+    
+}
+.classe{
+    display: flex;
+    justify-content: center;
+}
+.btn.btn-primary {
+    padding: 10px;
+    color: black;
+    background-color: rgb(147, 202, 199);
+    border-color: rgb(147, 202, 199);
+    display: inline-block;
+}
+.btn.btn-primary:hover {
+    background-color: rgb(93, 172, 168);
+    border-color: rgb(93, 172, 168);
+    color: black;
+}
+
+.card-body {
+    text-align: center; 
+}
